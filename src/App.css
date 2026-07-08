@@ -6,8 +6,12 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
-  color: white; 
+  font-family: 'Inter', sans-serif;
+  color: #1a1a1a; 
+}
+
+h1,h2,h3{
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .navbar{
@@ -41,4 +45,48 @@ body {
 
 .nav-links a:hover{
   color: #38bdf8;
+}
+
+.hero{
+  min-height: 80vh;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  padding: 40px; 
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white; 
+}
+
+.hero h1{
+  font-size: 3rem; 
+  margin-bottom: 20px; 
+
+ 
+ 
+}
+
+
+.hero p{
+  font-size: 1.24rem; 
+  max-width: 500px; 
+  margin-bottom: 24px; 
+  color: #cbd5e1;
+
+
+}
+
+.cta-button{
+  background-color: #38bdf8;
+  color: #0f172a; 
+  padding: 12px 28px;
+  border-radius: 8px; 
+  text-decoration: none; 
+  font-weight: 600; 
+  transition: transform 0.2s ease; 
+}
+
+.cta-button:hover{
+  transform: scale(1.05)
 }

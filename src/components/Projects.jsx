@@ -1,4 +1,4 @@
-import useOnScren from '../hooks/useOnScreen.js'
+import useOnScreen from '../hooks/useOnScreen.js'
 
 const projectsData=[
 
@@ -28,7 +28,7 @@ const projectsData=[
 
 
 function Projects(){
-const [ref, isVisible] = useOnScree()
+const [ref, isVisible] = useOnScreen()
 
 return (
     <section
@@ -38,6 +38,20 @@ return (
     className={`projects fade-section ${isVisible ? 'visible' : ''}`}>
 
         <h2 className ="section-label">Projects</h2>
+        <div className="projects-grid">
+            {projectsData.map((project)=>(
+                <div className="project-card" key={project.id}>
+                    <h3>{project.title}</h3>
+                    <p>{project.description}</p>
+                    <div className="tech-list">
+                        {project.tech.map((item)=>(
+                            <span className="tech-badge" key={item}>{item}</span>
+                        ))}
+                    </div>
+                    <a href={project.link} className="project-link">View Poject - </a>
+                    </div>
+            ))}
+        </div>
         
     </section>
 )

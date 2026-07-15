@@ -7,6 +7,7 @@ import Contact from './components/Contact.jsx'
 import Hero from './components/Hero.jsx'
 import Navbar from './components/Navbar.jsx'
 import Projects from './components/Projects.jsx'
+import Timeline from './components/Timeline.jsx'
 
 import './App.css'
 
@@ -21,6 +22,7 @@ function App() {
         <About />
         <Projects />
         <Contact />
+        <Timeline />
       </div>
     </>
   )

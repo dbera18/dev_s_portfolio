@@ -16,6 +16,10 @@ The React Compiler is not enabled on this template because of its impact on dev 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 
-To install on your computer, follow these steps: 
+** To install on your computer, follow these steps: **
 * Open Terminal
-* Clone this githublink: 
+* Clone this GitHub link: https://github.com/dbera18/dev_s_portfolio.git
+* After this, go to the directory where you saved the folder.
+* Run this: "npm install"
+* After a few minutes, run this: npm run dev
+  

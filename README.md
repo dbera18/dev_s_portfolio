@@ -17,8 +17,12 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 ** To install on your computer, follow these steps: **
+
+
 * Open Terminal
 * Clone this GitHub link: https://github.com/dbera18/dev_s_portfolio.git
+* If you haven't downloaded node.js before you run this repo, I would like you to download from
+ here https://nodejs.org/en/download?utm_source=chatgpt.com ( * download as per requirements windows/macos) 
 * After this, go to the directory where you saved the folder.
 * Run this: "npm install"
 * After a few minutes, run this: npm run dev
